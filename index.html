@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cyber Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- ANIMATION -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- FontAwesome 6.2.0 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header bg-transparent position-absolute w-100" style="z-index: 10">
+      <div class="container">
+        <div class="row py-4">
+          <div class="col-md-6">
+            <a href="#" class="logo display-4 text-decoration-none">
+              <i class="fa fa-dice-d20 text-success"></i>
+              <span class="text-light">Cyber portfolio</span>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <nav
+              class="menu d-flex justify-content-end align-items-center h-100"
+            >
+              <a
+                class="mx-2 text-light text-decoration-none active-link"
+                href="#"
+                >Home</a
+              >
+              <a
+                class="mx-2 text-light text-decoration-none active-link"
+                href="#"
+                >About</a
+              >
+              <a
+                class="mx-2 text-light text-decoration-none active-link"
+                href="#"
+                >Services</a
+              >
+              <a
+                class="mx-2 text-light text-decoration-none active-link"
+                href="#"
+                >Contact</a
+              >
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- SLIDER_CAROUSEL -->
+    <section class="slide-carousel top-0">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active vh-100" data-bs-interval="10000">
+            <img src="./img/finland.jpg" class="d-block w-100" alt="finland" />
+            <div class="carousel-caption d-none d-md-flex">
+              <div>
+                <img
+                  class="animate__animated animate__animated animate__fadeInUp"
+                  src="./img/01-3.jpg"
+                  alt="avarta1"
+                />
+                <h5
+                  class="animate__animated animate__animated animate__fadeInUp"
+                  style="animation-delay: 0.5s"
+                >
+                  First slide label
+                </h5>
+                <p
+                  class="animate__animated animate__animated animate__fadeInUp"
+                  style="animation-delay: 1s"
+                >
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item vh-100" data-bs-interval="2000">
+            <img
+              src="./img/mountains.jpg"
+              class="d-block w-100"
+              alt="mountains"
+            />
+            <div class="carousel-caption d-none d-md-flex">
+              <div>
+                <img
+                  class="animate__animated animate__animated animate__fadeInUp"
+                  src="./img/02-3.jpg"
+                  alt="avarta2"
+                />
+                <h5
+                  class="animate__animated animate__animated animate__fadeInUp"
+                  style="animation-delay: 0.5s"
+                >
+                  Second slide label
+                </h5>
+                <p
+                  class="animate__animated animate__animated animate__fadeInUp"
+                  style="animation-delay: 1s"
+                >
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item vh-100">
+            <img
+              src="./img/mountains-1.jpg"
+              class="d-block w-100"
+              alt="mountains-1"
+            />
+            <div class="carousel-caption d-none d-md-flex">
+              <div>
+                <img
+                  class="animate__animated animate__animated animate__fadeInUp"
+                  src="./img/03-3.jpg"
+                  alt="avarta3"
+                />
+                <h5
+                  class="animate__animated animate__animated animate__fadeInUp"
+                  style="animation-delay: 0.5s"
+                >
+                  Third slide label
+                </h5>
+                <p
+                  class="animate__animated animate__animated animate__fadeInUp"
+                  style="animation-delay: 1s"
+                >
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- PROJECTS -->
+    <section class="project mt-5">
+      <div class="container">
+        <h1 class="text-center pt-5">I Love What I Do</h1>
+        <p class="text-center w-75 m-auto mb-5">
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis
+          sodales quis. Integer sit amet mattis quam.Vestibulum ante ipsum
+          primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+          Nulla mollis dapibus nunc
+        </p>
+        <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#all-projects" type="button" role="tab" aria-controls="all-projects" aria-selected="true">All Projects</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#illustration" type="button" role="tab" aria-controls="illustration" aria-selected="true">Illustration</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#photography" type="button" role="tab" aria-controls="photography" aria-selected="true">Photography</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#website" type="button" role="tab" aria-controls="website" aria-selected="true">Website</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="all-projects" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+            <div class="row text-center">
+              <div class="col-12 col-md-4 mt-2">
+                  <div class="card">
+                    <img src="./img/g1.jpg" alt="g1">
+                    <div class="card-body border border-success rounded-bottom">
+                      <h5>Apologetic robot holding flowers</h5>
+                      <p>Branding</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4 mt-2">
+                <div class="card">
+                  <img src="./img/g1.jpg" alt="g1">
+                  <div class="card-body border border-success rounded-bottom">
+                    <h5>Apologetic robot holding flowers</h5>
+                    <p>Branding</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 mt-2">
+              <div class="card">
+                <img src="./img/g1.jpg" alt="g1">
+                <div class="card-body border border-success rounded-bottom">
+                  <h5>Apologetic robot holding flowers</h5>
+                  <p>Branding</p>
+                </div>
+              </div>
+              </div>
+              <div class="col-12 col-md-4 mt-2">
+            <div class="card">
+              <img src="./img/g1.jpg" alt="g1">
+              <div class="card-body border border-success rounded-bottom">
+                <h5>Apologetic robot holding flowers</h5>
+                <p>Branding</p>
+              </div>
+            </div>
+              </div>
+              <div class="col-12 col-md-4 mt-2">
+          <div class="card">
+            <img src="./img/g1.jpg" alt="g1">
+            <div class="card-body border border-success rounded-bottom">
+              <h5>Apologetic robot holding flowers</h5>
+              <p>Branding</p>
+            </div>
+          </div>
+              </div>
+              <div class="col-12 col-md-4 mt-2">
+        <div class="card">
+          <img src="./img/g1.jpg" alt="g1">
+          <div class="card-body border border-success rounded-bottom">
+            <h5>Apologetic robot holding flowers</h5>
+            <p>Branding</p>
+          </div>
+        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="illustration" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+            <div class="row text-center">
+              <div class="col-12 col-md-4 mt-2">
+                  <div class="card">
+                    <img src="./img/g1.jpg" alt="g1">
+                    <div class="card-body border border-success rounded-bottom">
+                      <h5>Apologetic robot holding flowers</h5>
+                      <p>Branding</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4 mt-2">
+                <div class="card">
+                  <img src="./img/g1.jpg" alt="g1">
+                  <div class="card-body border border-success rounded-bottom">
+                    <h5>Apologetic robot holding flowers</h5>
+                    <p>Branding</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 mt-2">
+              <div class="card">
+                <img src="./img/g1.jpg" alt="g1">
+                <div class="card-body border border-success rounded-bottom">
+                  <h5>Apologetic robot holding flowers</h5>
+                  <p>Branding</p>
+                </div>
+              </div>
+              </div>             
+            </div>
+          </div>
+        
+        </div>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="photography" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+            <div class="row text-center">
+              <div class="col-12 col-md-4 mt-2">
+                  <div class="card">
+                    <img src="./img/g1.jpg" alt="g1">
+                    <div class="card-body border border-success rounded-bottom">
+                      <h5>Apologetic robot holding flowers</h5>
+                      <p>Branding</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4 mt-2">
+                <div class="card">
+                  <img src="./img/g1.jpg" alt="g1">
+                  <div class="card-body border border-success rounded-bottom">
+                    <h5>Apologetic robot holding flowers</h5>
+                    <p>Branding</p>
+                  </div>
+                </div>
+              </div>      
+            </div>
+          </div>
+        
+        </div>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="website" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+            <div class="row text-center">
+              <div class="col-12 col-md-4 mt-2">
+                  <div class="card">
+                    <img src="./img/g1.jpg" alt="g1">
+                    <div class="card-body border border-success rounded-bottom">
+                      <h5>Apologetic robot holding flowers</h5>
+                      <p>Branding</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+    </section>
+    <section class="available bg-dark pt-5">
+      <div class="container">
+        <h1 class="text-white text-center">
+          I'm Available For Hire</h1>
+          <p class="text-white text-center w-75 m-auto">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
+          <div class="row">
+            <div class="col-12 col-md-4 mt-2">
+              <div class="card text-center text-white">
+                <i class="fa fa-paint-brush text-success fs-1 pt-5"></i>
+                <div class="card-body">
+                  <h3>Design</h3>
+                  <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mt-2">
+              <div class="card text-center text-white">
+                <i class="fa fa-paint-brush text-success fs-1 pt-5"></i>
+                <div class="card-body">
+                  <h3>Design</h3>
+                  <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mt-2">
+              <div class="card text-center text-white">
+                <i class="fa fa-paint-brush text-success fs-1 pt-5"></i>
+                <div class="card-body">
+                  <h3>Design</h3>
+                  <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <footer></footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
